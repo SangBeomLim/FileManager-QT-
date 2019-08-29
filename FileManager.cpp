@@ -22,7 +22,7 @@ FileManager::FileManager()
 //    str.sprintf("/%d-%d-%d %d:%d:%d.log",
 //    date->tm_year + 1900, date->tm_mon + 1,date->tm_mday, date->tm_hour, date->tm_min, date->tm_sec);
 
-    QString format = "/yyyy-MM-dd_COREGUI.log";
+    QString format = "/yyyy-MM-dd_TEST.log";
 
     m_Name = stCurrentDateTime.toString(format);
     m_FileName = m_Path + m_Name;
